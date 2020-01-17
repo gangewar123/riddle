@@ -103,7 +103,14 @@ export default class Comment extends Component {
           />
         </View>
 
-        <View style={{flexDirection: 'row', alignItems: 'center', height: 70,borderTopColor:"black",borderTopWidth:0.5}}>
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            height: 70,
+            borderTopColor: 'black',
+            borderTopWidth: 0.5,
+          }}>
           <Image
             source={{
               uri: this.props.navigation.getParam('image'),
@@ -116,7 +123,6 @@ export default class Comment extends Component {
             }}
           />
           <TextInput
-        
             placeholder="Add a Comment..."
             onChangeText={data => this.setState({textInput: data})}
             value={this.state.textInput}

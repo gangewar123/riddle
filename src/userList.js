@@ -56,7 +56,14 @@ export default class UserList extends Component {
                         marginRight: 5,
                       }}
                     />
-                    <Text style={{paddingLeft:10,fontWeight:"bold",fontSize:15}}>{item.username}</Text>
+                    <Text
+                      style={{
+                        paddingLeft: 10,
+                        fontWeight: 'bold',
+                        fontSize: 15,
+                      }}>
+                      {item.username}
+                    </Text>
                   </View>
                 </TouchableOpacity>
               </View>

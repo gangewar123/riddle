@@ -12,7 +12,7 @@ import Home from './src/home.js';
 import Comment from './src/comment.js';
 
 const MainNavigator = createStackNavigator({
-  Home: {screen: Home, navigationOptions: {headerShown:false}},
+  Home: {screen: Home, navigationOptions: {headerShown: false}},
   Comment: {screen: Comment},
 });
 
